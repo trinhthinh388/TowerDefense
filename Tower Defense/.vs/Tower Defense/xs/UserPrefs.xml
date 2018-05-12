@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{9B62F679-4818-BC0E-B835-F0DB59B1B44D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyController.cs">
+    <Files>
+      <File FileName="Assets/WayPoints.cs" Line="17" Column="3" />
+      <File FileName="Assets/EnemyController.cs" Line="21" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Tower_220Defense PreferredExecutionTarget="Unity.Editor" />
+</Properties>
