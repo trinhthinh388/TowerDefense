@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{9B62F679-4818-BC0E-B835-F0DB59B1B44D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EnemyController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameController.cs">
     <Files>
-      <File FileName="Assets/WayPoints.cs" Line="17" Column="3" />
-      <File FileName="Assets/EnemyController.cs" Line="21" Column="10" />
+      <File FileName="Assets/WayPoints.cs" Line="14" Column="17" />
+      <File FileName="Assets/EnemyController.cs" Line="20" Column="71" />
+      <File FileName="Assets/GameController.cs" Line="20" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
