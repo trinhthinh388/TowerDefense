@@ -6,19 +6,21 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour {
 	public Transform EnemyPreFab;
 	public Transform SpawnPoint;
-	public float TimeBetweenSpawn = 6f;
+	public float TimeBetweenSpawn = 10f;
 	public float countdown = 0;
 	public int WaveNumbers = 0;
 	public Text SpawningText;
 	// Use this for initialization
 	void Update() {
+		
 		if(countdown <= 0)
 		{
 			StartCoroutine(WaveSpawner());
 			countdown = TimeBetweenSpawn;
 		}
-		countdown -= Time.deltaTime;     
-		SpawningText.text = Mathf.Floor(countdown).ToString();
+		countdown -= Time.deltaTime;
+        if(countdown >= 0)
+		    SpawningText.text = Mathf.Floor(countdown).ToString();
 
 	}
 
